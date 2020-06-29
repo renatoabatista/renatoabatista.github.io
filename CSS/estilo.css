@@ -2,14 +2,6 @@
     border:1px solid red; 
 }
 
-/*
-criar um popup central para o visite selecionar:
-    - RECRUTADOR = PERFIL ANALITICO E DETALHE
-    - DESENVOLVEDOR = PERFIL TECNICO
-    - CURIOSO = DIFERENCIAL - HISTORIA COMPLETA
-*/
-
-
 .navbar .nav-item .nav-link{
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 800;
