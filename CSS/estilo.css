@@ -1,5 +1,5 @@
 .borda{
-    border:1px solid red; 
+    border:1px solid #303030; 
 }
 
 .navbar .nav-item .nav-link{
@@ -110,4 +110,9 @@
     background-attachment: fixed;
     background-size: cover;
 }
-
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    
+    background-color: #043161;
+    width: 30px;
+    height: 50px;
+}
