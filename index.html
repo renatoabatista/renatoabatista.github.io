@@ -18,6 +18,17 @@
   </head>
 
   <body class=" fundo-dinamico">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171595282-1"></script>
+	<script>
+ 	 window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+
+  	gtag('config', 'UA-171595282-1');
+	</script>
+
+
    <header class="fundo"> <!--#INÍCIO _HEADER-->
     <div class="container"> <!--#INÍCIO @CONTAINER-->
 
@@ -34,7 +45,8 @@
 
                    <div class="collapse navbar-collapse" id="MenuPrincipal">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link" href="#Estudo">Estudos de caso</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Estudo">Quem sou</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Projetos">Estudos de caso</a></li>
                         <li class="nav-item"><a class="nav-link" href="#Projetos">Projetos</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Artigos</a></li>
                         <li class="nav-item"><a class="nav-link" href="#Contato">Contato</a></li>
@@ -59,7 +71,7 @@
                     </div>
                 </div> <!--#FIM _Renato-->
 
-                <div class="mt-4 mb-4 d-none d-sm-block"> <!--#INÍCIO #TEC-->
+                <div class="mt-4 mb-4 d-none d-sm-block "> <!--#INÍCIO #TEC-->
                     <div class="text-center mr-5">
 
                         <button class="btn btn-success btn-sm ">
@@ -82,7 +94,7 @@
         
             </div> <!--#FIM _IMG-MEIO-->
 
-            <div class="col-md-1 align-self-center d-none d-sm-block"> <!--#INÍCIO _SOCIAL-->
+            <div class="col-md-1 align-self-center d-none d-md-block d-md-block"> <!--#INÍCIO _SOCIAL-->
                 <div class="text-center">
                     <span class="d-block " >
                         <a href="https://github.com/renatoabatista"><i class="fab mt-1 mb-3 fa-github fa-2x text-light"></i></a>
@@ -118,9 +130,8 @@
     </div>
 
 
-    <div class="carousel slide" data-ride="carousel"> <!--@INÍCIO - SLIDE ESTUDO-->
+    <div class="carousel slide" data-ride="carousel" id="controle"> <!--@INÍCIO - SLIDE ESTUDO-->
         <div class="carousel-inner">
-            
             <div class="carousel-item  active">
                 <section> <!--#INÍCIO _ESTUDO DE CASO-->
                     <div class="container mt-4 mb-3 ">
@@ -128,7 +139,7 @@
                             <div class="col-md-12">
                                 <h2 class="h6">ESTUDOS DE CASO</h2> 
                                 <div class="row ">
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 col-sm-12">
                                         <div class="card">
                                             <img class="card-img-top" src="./IMG/camisabranca.png">
                                             <div class="card-body">
@@ -147,9 +158,9 @@
                                         </div>
                                     </div>
                 
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 col-sm-12">
                                         <div class="card">
-                                            <img class="card-img-top" src="./IMG/laranja.png">
+                                            <img class="card-img-top" src="./IMG/finans.png">
                                             <div class="card-body">
                                                 <div class="card-text">
                                                     <h4 class="pt-2">Camisa Branca</h4>
@@ -182,7 +193,7 @@
                                 <div class="row ">
                                     <div class="col-md-6">
                                         <div class="card">
-                                            <img class="card-img-top" src="./IMG/camisabranca.png">
+                                            <img class="card-img-top" src="./IMG/laranja.png">
                                             <div class="card-body">
                                                 <div class="card-text">
                                                     <h4 class="pt-2">Camisa Branca</h4>
@@ -201,7 +212,7 @@
                 
                                     <div class="col-md-6">
                                         <div class="card">
-                                            <img class="card-img-top" src="./IMG/laranja.png">
+                                            <img class="card-img-top" src="./IMG/finansdev.png">
                                             <div class="card-body">
                                                 <div class="card-text">
                                                     <h4 class="pt-2">Camisa Branca</h4>
@@ -217,13 +228,70 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
                                 </div>
                             </div>
                         </div>
                     </div>
                    </section> <!--#FIM _ESTUDO DE CASO-->
             </div>
+
+            <div class="carousel-item  ">
+                <section> <!--#INÍCIO _ESTUDO DE CASO-->
+                    <div class="container mt-4 mb-3 ">
+                        <div class="row ">
+                            <div class="col-md-12">
+                                <h2 class="h6">ESTUDOS DE CASO</h2> 
+                                <div class="row ">
+                                    <div class="col-md-6">
+                                        <div class="card">
+                                            <img class="card-img-top" src="./IMG/spotify-clone.png">
+                                            <div class="card-body">
+                                                <div class="card-text">
+                                                    <h4 class="pt-2">Camisa Branca</h4>
+                                                    <h5 class="pt-1">E-commercer</h5>
+                                                    <p>Descrição</p>
+                                                </div>
+                                                <div class="pb-3">
+                                                    <span class="btn btn-sm btn-warning disabled">JS</span>
+                                                    <span class="btn btn-sm btn-primary disabled">HTML</span>
+                                                    <span class="btn btn-sm btn-success disabled">CSS</span>
+                                                    <span class="btn btn-sm btn-roxo disabled">Bootstrap 4</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col-md-6">
+                                        <div class="card">
+                                            <img class="card-img-top" src="./IMG/museu.png">
+                                            <div class="card-body">
+                                                <div class="card-text">
+                                                    <h4 class="pt-2">Camisa Branca</h4>
+                                                    <h5 class="pt-1">E-commercer</h5>
+                                                    <p>Descrição</p>
+                                                </div>
+                                                <div class="pb-3">
+                                                    <span class="btn btn-sm btn-warning disabled">JS</span>
+                                                    <span class="btn btn-sm btn-primary disabled">HTML</span>
+                                                    <span class="btn btn-sm btn-success disabled">CSS</span>
+                                                    <span class="btn btn-sm btn-roxo disabled">Bootstrap 4</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   </section> <!--#FIM _ESTUDO DE CASO-->
+            </div>
+                <a class="carousel-control-next" href="#controle" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+    
+                <a class="carousel-control-prev" href="#controle" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
         </div>
     </div> <!--FIM SLIDER-->
 
@@ -248,19 +316,19 @@
                                                 </li>
 
                                                 <li class="nav-item">
-                                                    <a href="#">Quem sou</a>
+                                                    <a href="#">Estudos</a>
                                                 </li>
 
                                                 <li class="nav-item">
-                                                    <a href="#">Quem sou</a>
+                                                    <a href="#">Projetos</a>
                                                 </li>
 
                                                 <li class="nav-item">
-                                                    <a href="#">Quem sou</a>
+                                                    <a href="#">Artigos</a>
                                                 </li>
                                                 
                                                 <li class="nav-item">
-                                                    <a href="#">Quem sou</a>
+                                                    <a href="#">Contato</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -309,14 +377,14 @@
 
                                         <li class="">
                                             <div>
-                                                <img src="IMG/laranja.png" style="width: 150px;" class="float-left mr-2">
+                                                <img src="IMG/finans.png" style="width: 150px;" class="float-left mr-2">
                                                 <p class=>Informativo referente ao box do projeto, caso ultrapasse o valor de X, Y</p>
                                             </div>
                                         </li>
 
                                         <li class="">
                                             <div>
-                                                <img src="IMG/finandev.png" style="width: 150px;" class="float-left mr-2">
+                                                <img src="IMG/laranja.png" style="width: 150px;" class="float-left mr-2">
                                                 <p class="">Informativo referente ao box do projeto, caso ultrapasse o valor de X, Y</p>
                                             </div>
                                         </li>
@@ -335,7 +403,7 @@
                                             </div>
 
                                             <div class="col-md-6">
-                                                <img src="IMG/camisabranca.png" class="img-fluid">
+                                                <img src="IMG/spotify-clone.png" class="img-fluid">
                                             </div>
                                           </div>
                                         </div>
@@ -343,11 +411,11 @@
                                         <div class="row jusfity-content-center">
                                             <div class="d-flex align-self-center">
                                               <div class="col-md-6 ">
-                                                  <img src="IMG/camisabranca.png" class="img-fluid">
+                                                  <img src="IMG/museu.png" class="img-fluid">
                                               </div>
   
                                               <div class="col-md-6 ">
-                                                  <img src="IMG/camisabranca.png" class="img-fluid">
+                                                  <img src="IMG/finansdev.png" class="img-fluid">
                                               </div>
                                             </div>
                                           </div>
