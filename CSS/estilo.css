@@ -1,5 +1,8 @@
 .borda{
-    border:1px solid #303030; 
+    border:1px solid red; 
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;  
 }
 
 .navbar .nav-item .nav-link{
@@ -20,10 +23,20 @@
 }
 .fundo{
    background: linear-gradient(#062647, #043161); 
-   /*border-bottom-left-radius: 60% 10%;
-   border-bottom-right-radius: 60% 10%;*/
-  
+   /*border-bottom-left-radius: 10% 10% ; */
+   border-bottom-right-radius: 10% 30%;
 }
+.fundo-sub{
+    background: linear-gradient(#f0f0f0, #ffffff);
+    border-bottom-right-radius: 10% 30%;
+    height: 370px;
+ }
+
+ .fundo-footer{
+    background: linear-gradient(#062647, #043161); 
+    /*border-bottom-left-radius: 10% 10% ; */
+    border-top-left-radius: 10% 30%;
+ }
 .chamada-header{
     font-family: 'Julius Sans One', sans-serif;
 }
@@ -44,13 +57,11 @@
         
     }
 }
-  
 
  .fundo-pequeno{
      background-image: url('../IMG/fundo1.svg');
      background-size: cover;
-     background-repeat: no-repeat;
-     
+     background-repeat: no-repeat;  
  }
 .fa-github:hover{
     color:gray !important;
@@ -99,20 +110,43 @@
     border-bottom: 6px solid #1060b4;
     display: inline-block;
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 35px;
+    color:white;
 }
 .btn-roxo{
     background-color: #750951;
     color:white;
 }
 .fundo-dinamico{
-    background: url('https://static.vecteezy.com/system/resources/previews/000/693/851/non_2x/smart-city-concept-high-technology-connection-background-vector.jpg');
+    background: rgb(2, 1, 49) url('');
     background-attachment: fixed;
     background-size: cover;
 }
 .carousel-control-prev-icon, .carousel-control-next-icon{
-    
     background-color: #043161;
     width: 30px;
     height: 50px;
+    
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 6%;
+    margin:0 3% 0;
+} 
+.menu-footer a{
+    color:white;
+    text-decoration: none;
+    text-decoration: none;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:#d6d6d6;  
+    transition-duration: 0.7s;
+}
+.menu-footer a:hover{
+    text-decoration: none;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:#d6d6d6;  
+    transition-duration: 0.7s;
 }
