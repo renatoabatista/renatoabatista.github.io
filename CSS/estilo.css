@@ -3,6 +3,7 @@
 }
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;  
+    
 }
 
 .navbar .nav-item .nav-link{
@@ -25,39 +26,30 @@ body{
    background: linear-gradient(#062647, #043161); 
    /*border-bottom-left-radius: 10% 10% ; */
    border-bottom-right-radius: 10% 30%;
+   position: relative;
 }
 .fundo-sub{
-    background: linear-gradient(#f0f0f0, #ffffff);
+    background: linear-gradient(#f0f0f0, #ffffff);  
     border-bottom-right-radius: 10% 30%;
-    height: 370px;
+    padding-bottom: 7px;
  }
 
  .fundo-footer{
     background: linear-gradient(#062647, #043161); 
-    /*border-bottom-left-radius: 10% 10% ; */
     border-top-left-radius: 10% 30%;
+    position: relative;
  }
+
+ .fundo-sub-bt{
+    background: linear-gradient(#f0f0f0, #ffffff);  
+    border-top-left-radius: 10% 30%;
+    padding-top: 7px;
+    
+}
+
 .chamada-header{
     font-family: 'Julius Sans One', sans-serif;
 }
-
-.piscar {
-    animation-duration: 0.9s;
-    animation-name: piscar;
-    animation-iteration-count:infinite;
-  }
-  
-  @keyframes piscar {
-    from {
-        color:white;
-    }
-  
-    to {
-        color:transparent;
-        
-    }
-}
-
  .fundo-pequeno{
      background-image: url('../IMG/fundo1.svg');
      background-size: cover;
@@ -87,7 +79,7 @@ body{
     color:white;
     animation-name: call;
     animation-iteration-count: infinite;
-    animation-duration: 0.7s;
+    animation-duration: 0.5s;
     
     }
     @keyframes call{
@@ -101,8 +93,28 @@ body{
         }
         from{
             transform:rotate(35deg);
+            
         }
     }
+
+    .linha-animada {
+        animation-duration: 1.4s;
+        animation-name: linha-animada;
+        animation-iteration-count:infinite;
+      }
+      
+      @keyframes linha-animada {
+        from {
+            background-color:white;
+        }
+      
+        to {
+            color:transparent;
+            
+        }
+    }
+
+
 .navbar .navbar-toggler{
     border:2px solid #1060b4;
 }
@@ -111,6 +123,14 @@ body{
     display: inline-block;
     margin-bottom: 20px;
     font-size: 35px;
+    color:white;
+}
+
+.h7{
+    border-bottom: 6px solid #1060b4;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 25px;
     color:white;
 }
 .btn-roxo{
