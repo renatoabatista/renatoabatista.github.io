@@ -5,7 +5,15 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;  
     
 }
+a{
+    text-decoration: none;
+    color:white;
+}
 
+a:hover{
+    text-decoration: none;
+    color:#d6d6d6;
+}
 .navbar .nav-item .nav-link{
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 800;
