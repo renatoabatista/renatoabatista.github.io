@@ -22,6 +22,17 @@ body{
     color:#1060b4;
       
 }
+
+.fundo-modal{
+    background: linear-gradient(#062647, #043161); 
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 3%;
+    border-top-left-radius: 3%;
+    border-style: solid;
+    border-color:white;
+    border-width: 5px;
+    position: relative;
+ }
 .fundo{
    background: linear-gradient(#062647, #043161); 
    /*border-bottom-left-radius: 10% 10% ; */
