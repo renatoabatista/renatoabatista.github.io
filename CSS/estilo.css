@@ -12,7 +12,7 @@ a{
 
 a:hover{
     text-decoration: none;
-    color:#d6d6d6;
+    color:#0709a5;
 }
 .navbar .nav-item .nav-link{
     font-family: 'Julius Sans One', sans-serif;
@@ -188,4 +188,30 @@ a:hover{
     text-transform: uppercase;
     color:#d6d6d6;  
     transition-duration: 0.7s;
+}
+.apresentacao{
+    text-align: justify;
+}
+.XP p{
+    margin:0px;
+    padding:0px;
+
+}
+.XP a{
+    color:black;
+}
+.XP a:hover{
+    color:rgb(243, 0, 0);
+}
+.XP ul  {
+    list-style-type: circle;
+    margin:1px;
+    padding-left:4%;
+}
+.XP{
+    margin-bottom: 20px;
+}
+.XP span{
+    font-weight: bold;
+    color:#212222;
 }
