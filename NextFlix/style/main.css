@@ -1,0 +1,165 @@
+:root {
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preto);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+header nav a:hover {
+    color: #FFF;
+}
+
+.fundo_animado{
+    position: fixed; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -1000;
+    background-size: cover; 
+}
+
+.filme-principal {
+    font-size: 16px;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contato-renato{
+    background-color: #e50914;
+    padding: 8px;
+    color:white;
+}
+.contato-renato:hover{
+    background-color: #413e3f;
+    padding: 8px;
+    color:white;
+}
+
+.btn-vermelho{
+    background-color: #e50914;
+    padding: 8px;
+    color:white;
+}
+button{
+ border: 0px;
+ margin: 0px;
+ height: 40px;
+}
+
+footer{
+    margin:50px 0 50px;
+    justify-content: center;
+    display: flex;
+}
+input{
+    
+    margin:0px;
+    width: 200px;
+    height: 40px;
+    border: 0px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 900;
+}
+
+.filme-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 60px;
+
+}
+.acaoJS{
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.filme-principal .titulo {
+    margin-top: 10%;
+    font-size: 40px;
+    
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: #ffffff;
+    width: 200px;
+    border-radius: 5px;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+}
+
+.botao:hover {
+    background-color: #cacaca;
+    color: #111111;
+    transition: .3s ease all;
+}
+
+.botao i {
+    margin: 8px;
+}
+
+.container {
+    margin-left: 15px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carousel-filmes {
+    margin-top: 5px;
+}
+.efeito-selecao:hover{
+    margin-left: -5%;
+    margin-right: -5%;
+    margin-top: -10%;
+    transition-delay: 0.3s;
+}

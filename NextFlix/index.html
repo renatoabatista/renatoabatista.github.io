@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <script src="js/validar.js"></script>
+    <link rel="stylesheet" href="style/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <title>NEXTFLIX</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NEXTFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Series</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+                <a class="contato-renato" href="mailto:renatoabatista@gmail.com">Contato</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            
+            <video autoplay muted loop id="videofundo" class="fundo_animado">
+                <source src="http://renatoabatista.somee.com/trailler.mp4" type="video/mp4">
+            </video>
+
+            <div class="container">
+                <h3 class="titulo">Mr. Robot</h3>
+                <p class="descricao">
+                    Mr. Robot é uma série de televisão norte-americana criada por Sam Esmail. É protagonizada por Rami Malek como Elliot Alderson, um engenheiro de cibersegurança e hacker que sofre de transtorno de ansiedade social e depressão clínica.
+                </p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <div class="carousel-filmes ">
+        <div class="owl-carousel owl-theme">
+            <div class="item efeito-selecao">
+                <img class="box-filme" src="https://m.media-amazon.com/images/M/MV5BMzgxMmQxZjQtNDdmMC00MjRlLTk1MDEtZDcwNTdmOTg0YzA2XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg" alt="">
+            </div>
+            <div class="item efeito-selecao">
+                <img class="box-filme" src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/hKWxWjFwnMvkWQawbhvC0Y7ygQ8.jpg" alt="">
+            </div>
+            <div class="item efeito-selecao">
+                <img class="box-filme" src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/l4qvJ0lq59wR3ODX42DxBVFGoxx.jpg" alt="">
+            </div>
+            <div class="item efeito-selecao">
+                <img class="box-filme" src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/dc5r71XI1gD4YwIUoEYCLiVvtss.jpg" alt="">
+            </div>
+            <div class="item efeito-selecao">
+                <img class="box-filme" src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vah1dnAyxXMBKGyGZDWB7g9Yz0q.jpg" alt="">
+            </div>
+            <div class="item efeito-selecao ">
+                <img class="box-filme" src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dw7jYk7EdrkrHozG7F1Yg2eFJTm.jpg" alt="">
+            </div>
+            <div class="item efeito-selecao">
+                <img class="box-filme" src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/1oODZKc1dpQZvtZPaZVWR11dzEI.jpg" alt="">
+            </div>
+            <div class="item efeito-selecao" >
+                <img class="box-filme" src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/u80AJrwINGOeQElFd2fTOUaJyXY.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+       <div>
+           <p>Pronto para me contratar? Informe sua resposta abaixo.</p>
+           <div class="acaoJS">
+            <input  id="resposta">
+            <button class="btn-vermelho" onclick="resposta()">Digite uma resposta</button>
+            </input>
+           </div>
+       </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/0fa360d601.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
+
+</body>
+</html>
