@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP - COMBATE AO CORONAVIRUS</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="logica_game.js"></script>
+</head>
+<body onresize="ajustaTamanhoTela()" class="nv">
+    
+    <div class="painel">
+        <div class="vidas">
+            <img src="img/coracao_cheio.png" id="v1">
+            <img src="img/coracao_cheio.png" id="v2">
+            <img src="img/coracao_cheio.png" id="v3">
+        </div>
+
+        <div class="cronometro">Tempo restante: <span id="cronometro"></span></div>
+    </div>
+
+    <script>
+        document.getElementById('cronometro').innerHTML = tempo
+
+        var criaInimigos = setInterval(function() { 
+            PosicaoRandom()
+        }, velocidade)
+    </script>
+</body>
+</html>
