@@ -36,9 +36,7 @@ class Saldo {
     saldoDisponivel(){
         
     }
-
 }
-
 class BancoDeDadosLocal{
     constructor(){
         let id = localStorage.getItem('ID')
@@ -329,45 +327,4 @@ function limparCampos(){
     descricao.value = ""
     valor.value = ""
     localStorage.clear()
-}
-
-class Usuario{
-    constructor(idUsuario, usuario, senha, Rsenha){
-        this.idUsuario = idUsuario
-        this.usuario = usuario
-        this.senha = senha
-        this.Rsenha = Rsenha
-    }
-}
-
-function registrarUsuario () {
-    let usuario = document.getElementById('usuario')
-    let senha = document.getElementById('senha')
-    let Rsenha = document.getElementById('Rsenha')
-    
-    let novoCadastro = new Usuario(
-        idUsuario.value,
-        usuario.value,
-        senha.value,
-        Rsenha.value
-    )
-
-/*    if(usuario.value == "" || senha.value == "" || Rsenha.value == ""){
-        document.getElementById('usuario').style.borderBottomColor = 'red'
-        document.getElementById('senha').style.borderBottomColor = 'red'
-        document.getElementById('Rsenha').style.borderBottomColor = 'red'
-
-    }
-    if (senha.value != Rsenha.value){
-        alert('As senhas devem ser iguais')
-    }
-    else{
-
-    }  */
-    cadUsuario(novoCadastro)
-}
-function cadUsuario(dadosUsuario){
-    localStorage.setItem('Usuario', JSON.stringify(dadosUsuario))
-}
-class BDUsuario{
 }
